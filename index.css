@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 , .line1 p, .line2 p{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 0 0; 
+}
+
+.partition1{
+    height:100%;
+    width:35%;
+    float : left;
+    padding:2em;
+}
+.partition1 ul{
+    margin-top : 0px;
+}
+
+.education ul , .coursework ul{
+    list-style-type: none;
+    padding:0px;
+}
+.partition2{
+    height:100%;
+    width:65%;
+    float: left;
+    padding:2em;
+}
+h4{
+    margin: 0px;
+}
+
+.read-more-btn{
+    color: #0984e3;
+}
+.read-more-text{
+    display: none;
+}
+.read-more-text--show{
+    display: inline;
+}
+.addfontSize{
+    font-size: 100px;
+}
